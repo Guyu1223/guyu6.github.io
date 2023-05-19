@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>个人简历</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: rgb(37, 114, 126);
+        /* background-color: #c0c9ee; */
+        background-image: url(tupian.jpg);
+        background-position: 50% 30%; 
+
+        background-repeat: no-repeat;
+        
+    background-size:cover;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 50px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        color: #333;
+        margin-top: 30px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 50px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        opacity:0.8;
+      }
+      .section {
+        margin-top: 50px;
+      }
+      .section-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .experience {
+        margin-top: 30px;
+        /* 取消链接样式(下划线和颜色) */
+        text-decoration: none;
+        color: inherit;
+      }
+      .experience .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .experience .date {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 10px;
+      }
+      .skills {
+        margin-top: 30px;
+      }
+      .skills ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .skills li {
+        display: inline-block;
+        background-color: #ddd;
+        color: #333;
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        
+        
+
+      }
+      .skills li:hover{
+        display: inline-block;
+        background-color: #ddd;
+        color: rgb(114, 107, 107);
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        
+      }
+      .contact {
+        margin-top: 30px;
+      }
+      .contact ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .contact li {
+        margin-bottom: 10px;
+      }
+      .contact li a {
+        display: block;
+        color: rgb(37, 114, 126);
+        font-size: 16px;
+        text-decoration: none;
+        transition: color 0.15s ease-in-out;
+      }
+      .contact li a:hover {
+        color: #00bfff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>个人主页</h1>
+      <div class="section">
+        <h2 class="section-title">个人信息</h2>
+        <p><strong>姓名：</strong>张毅杭</p>
+        <p><strong>性别：</strong>男</p>
+        <p><strong>出生日期：</strong>2002年12月23日</p>
+        <p><strong>手机号：</strong>18649904433</p>
+        <p><strong>邮箱：</strong>2112539231@qq.com</p>
+      </div>
+      <div class="section">
+        <h2 class="section-title">学习经历</h2>
+        <a href="testbackEnd.html" class="experience">
+          <div class="title"><li><a href="https://www.fjut.edu.cn/main.htm">福建理工大学</li></a></div>
+          <div class="date">入学时间:2021年9月</div>
+          <p>专业</p>
+          <ul>
+            <li>数据科学与大数据技术</li>
+            <!-- <li>MySQL,Redis,elasticsearch</li>
+            <li>CentOS,Docker,Nacos,Git,RabbitMQ</li> -->
+          </ul>
+        </a>
+      <a href="testhardware.html" class="experience">
+        <div class="title" >获奖经历</div>
+        <div class="date">2021年9月-2023年5月</div>
+        <p>内容</p>
+        <ul>
+          <li>蓝桥杯省级一等奖</li>
+          <li>蓝桥杯国家级三等奖</li>
+          <li>CCSP国家级三等奖</li>
+        </ul>
+      </a>
+    </div>
+    <div class="section">
+      <h2 class="section-title">其他技能</h2>
+      <div class="skills">
+        <ul>
+          <li>C++</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <h2 class="section-title">联系方式</h2>
+      <div class="contact">
+        <ul>
+          <li>电话:18649904433</li>
+          <li>QQ:2112539231</li>
+          <li>GitHub:Guyu1223</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
